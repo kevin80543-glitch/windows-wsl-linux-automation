@@ -201,7 +201,28 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
+# Output files
+*.csv
+*.log
+
+# WSL / Linux
+__pycache__/
+venv/
+
 # Marimo
+marimo/_static/
+marimo/_lsp/
+__marimo__/
+
+# =========================
+# Project Generated Files
+# =========================
+*.csv
+*.log
+
+# Keep sample files
+!output_sample/*.csv
+!output_sample/*.example
 marimo/_static/
 marimo/_lsp/
 __marimo__/
